@@ -1,0 +1,51 @@
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+
+body{
+    margin: 0;
+}
+
+a {
+    color: gray;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0px;
+    text-align: center;
+}
+
+/* Classes
+   ========================================================================== */
+/**
+ * 
+ */
+
+.navbar {
+    padding: 1.5%;
+}
+
+.nav-item {
+    padding: 1.5rem;
+}
+
+.grey-white {
+    background-color: gray;
+    color: white;
+}
+
+/* IDs
+   ========================================================================== */
+/**
+ * 
+ */
+
+#main-content {
+    text-align: center;
+}
+

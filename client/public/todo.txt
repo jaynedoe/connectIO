@@ -1,0 +1,2 @@
+insert search icon into home page search bar.
+add screen responsiveness to home page search bar. 
