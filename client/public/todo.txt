@@ -1,2 +1,11 @@
+------------STYLING-------------
+
 insert search icon into home page search bar.
 add screen responsiveness to home page search bar. 
+insert favicon into browser tab
+centre align and make smaller - placeholder text in create account and log in forms
+
+-----------SERVER-SIDE-------------------
+
+fix server-side file locations between client and server side folders/directory - 
+currently server.js is not accessing the html + css files properly
