@@ -1,3 +1,10 @@
+------------NEXT UP------------------
+build about and contact pages
+build faq page
+build how does it work page
+
+
+
 ------------STYLING-------------
 
 insert search icon into home page search bar.
@@ -6,6 +13,7 @@ insert favicon into browser tab
 centre align and make smaller - placeholder text in create account and log in forms
 
 create account page - place validation messages to the side of the input boxes
+make the placeholder text smaller
 
 login page - centre buttons under user name and password enter - check responsiveness
 
