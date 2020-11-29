@@ -14,8 +14,13 @@
     <link rel="shortcut icon" type="image/png" href="../images/heart.png" />
 
     <!-- Font Awesome  -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">  
-    
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -23,7 +28,7 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
-    
+
     <!-- User agent style sheets -->
     <link rel="stylesheet" href="../css/main.css" />
   </head>
@@ -142,21 +147,53 @@
           <h1 class="display-3 mb-5">Log In</h1>
 
           <!-- Create log in form and submit -->
-          <form>
+          <form onsubmit="return validateLogin()">
             <div class="row d-flex justify-content-center">
-              <div class="col-md-4">
-                <input
-                  class="form-control form-control-lg mt-5"
+              <div class="col-md-2">
+                <div class="form-group">
+                  <label for="username-or-email">Username or email</label>
+                  <input
+                  class="form-control form-control-lg"
                   type="text"
                   width="50%"
-                  aria-label="Search"
                   placeholder=""
+                  id="username-or-email"
+                  name="username-or-email"
                 />
+                <span id="username-or-email-message"></span>
+                </div>
               </div>
             </div>
             <div class="row d-flex justify-content-center">
-              <div class="col-md-4">
-                <button type="button" class="btn btn-info mt-5">Log In</button>
+              <div class="col-md-2">
+                <div class="form-group">
+                  <label for="login-password">Password</label>
+                  <input
+                  class="form-control form-control-lg"
+                  type="text"
+                  width="50%"
+                  placeholder=""
+                  id="login-password"
+                  name="login-password"
+                />
+                <span id="login-password-message"></span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-2">
+                <button type="button" class="btn btn-outline-secondary mt-5 mr-4">Forgot Password?</button>
+                <button type="submit" class="btn btn-info mt-5">Log In</button>
+              </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-2">
+               <div class="form-group form-check mt-5">
+                <input type="checkbox" class="form-check-input" id="remember-me-check">
+                <label class="form-check-label" for="remember-me-check">&nbsp Remember me</label>
+               </div>
               </div>
             </div>
           </form>
@@ -164,29 +201,31 @@
       </div>
     </main>
 
-      <!-- footer content -->
-      <footer class="grey-white">
-        <div class="container-fluid">
-          <p class="mx-5 my-5 text-info">
-            <strong>&copy; Copyright 2021 connect-io</strong>
-          </p><div class="footer-icons">
-            <a href="https://www.twitter.com/"
-              ><i class="footer-icon fab fa-twitter"></i
-            ></a>
-            <a href="https://www.facebook.com/"
-              ><i class="footer-icon fab fa-facebook-f"></i
-            ></a>
-            <a href="https://www.instagram.com/"
-              ><i class="footer-icon fab fa-instagram"></i
-            ></a>
-            <a href="mailto:jaedoyne@gmail.com/"
-              ><i class="footer-icon fas fa-envelope"></i
-            ></a>
-          </div>        
+    <!-- footer content -->
+    <footer class="grey-white">
+      <div class="container-fluid">
+        <p class="mx-5 my-5 text-info">
+          <strong>&copy; Copyright 2021 connect-io</strong>
+        </p>
+        <div class="footer-icons">
+          <a href="https://www.twitter.com/"
+            ><i class="footer-icon fab fa-twitter"></i
+          ></a>
+          <a href="https://www.facebook.com/"
+            ><i class="footer-icon fab fa-facebook-f"></i
+          ></a>
+          <a href="https://www.instagram.com/"
+            ><i class="footer-icon fab fa-instagram"></i
+          ></a>
+          <a href="mailto:jaedoyne@gmail.com/"
+            ><i class="footer-icon fas fa-envelope"></i
+          ></a>
         </div>
-      </footer>
-  
-      <!-- Javascripts -->
+      </div>
+    </footer>
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="javascript/validate.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

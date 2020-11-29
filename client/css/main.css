@@ -8,8 +8,8 @@ body{
     margin: 0;
 }
 
-a {
-    color: gray;
+a, label {
+    color: rgb(163, 161, 161);
 }
 
 footer {
