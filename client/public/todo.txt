@@ -12,7 +12,7 @@ add screen responsiveness to home page search bar.
 insert favicon into browser tab
 centre align and make smaller - placeholder text in create account and log in forms
 
-create account page - place validation messages to the side of the input boxes
+create account page - place validation messages to the side of the input boxes, make them pink/red
 make the placeholder text smaller
 
 login page - centre buttons under user name and password enter - check responsiveness
@@ -21,6 +21,7 @@ footer - make it stay at the bottom!  https://matthewjamestaylor.com/bottom-foot
 
 -------CLIENT SIDE VALIDATION----------------
 
+home page - validation for postcode search with regular expression
 create account page - regular expressions to check email, password and postcode conventions
 and, check that passwords match
 
