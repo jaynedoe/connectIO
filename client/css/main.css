@@ -13,10 +13,8 @@ a, label {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    left: 0px;
+    margin-top: 250px;
+    padding: 2%;
     text-align: center;
 }
 
@@ -36,6 +34,14 @@ footer {
 
 .container-fluid {
     padding: 0px;
+}
+
+.faq-style {
+    margin-bottom: 20px;
+}
+
+.how-does-it-work {
+    margin-bottom: 150px;
 }
 
 .main-content {

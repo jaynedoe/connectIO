@@ -1,7 +1,7 @@
 ------------NEXT UP------------------
-build about and contact pages
+fix contact form validation javascript and messaging
 build faq page
-build how does it work page
+build out how does it work page
 
 
 
@@ -16,6 +16,8 @@ create account page - place validation messages to the side of the input boxes
 make the placeholder text smaller
 
 login page - centre buttons under user name and password enter - check responsiveness
+
+footer - make it stay at the bottom!  https://matthewjamestaylor.com/bottom-footer
 
 -------CLIENT SIDE VALIDATION----------------
 
