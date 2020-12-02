@@ -24,12 +24,20 @@ footer {
  * 
  */
 
+.logo-navbar-sub {
+    width: 70%;
+}
+
 .navbar {
     padding: 1.5%;
 }
 
 .nav-item {
     padding: 1.5rem;
+}
+
+.navbar-right{
+    margin-right: 100px;
 }
 
 .container-fluid {
@@ -71,5 +79,9 @@ footer {
 /**
  * 
  */
+
+ #logo-navbar-main{
+     width: 90%;
+ }
 
 
