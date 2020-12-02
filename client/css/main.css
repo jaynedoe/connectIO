@@ -25,11 +25,11 @@ footer {
  */
 
 .logo-navbar-sub {
-    width: 70%;
+    /* width: 70%; */
 }
 
 .navbar {
-    padding: 1.5%;
+    padding: 2%;
 }
 
 .nav-item {
@@ -80,8 +80,8 @@ footer {
  * 
  */
 
- #logo-navbar-main{
+ /* #logo-navbar-main{
      width: 90%;
- }
+ } */
 
 
